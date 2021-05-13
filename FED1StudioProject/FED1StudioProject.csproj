@@ -68,7 +68,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Classes.html" />
-    <Content Include="CSS\Styles.css" />
+    <Content Include="CSS\Classes.css" />
+    <Content Include="CSS\Contact.css" />
+    <Content Include="CSS\index.css" />
+    <Content Include="CSS\Team.css" />
     <Content Include="Team.html" />
     <Content Include="Contact.html" />
     <Content Include="index.html" />
