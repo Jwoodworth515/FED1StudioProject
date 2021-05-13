@@ -1,0 +1,30 @@
+﻿body {
+    background-color:lightslategray
+}
+
+header {
+    background-color:black
+}
+
+h1  {
+    color:white
+}
+
+p   {
+    font-style:italic
+}
+
+footer  {
+    font-weight:bold
+}
+
+#ErrorList  {
+    font-weight:bold;
+    color:red;
+    font-style:italic
+}
+
+.Warning    {
+    font-size:x-large;
+    color:red
+}
