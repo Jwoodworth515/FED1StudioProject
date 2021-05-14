@@ -3,29 +3,38 @@
 }
 
 header {
-    background-color: black;
-    color:white
+    background-color: grey;
+    color:white;
 }
 
 h1 {
-    color: white
+    color: white;
 }
 
 p {
-    font-style: italic
+    font-style: italic;
 }
 
 footer {
-    font-weight: bold
+    font-weight: bold;
 }
 
 #ErrorList {
     font-weight: bold;
     color: red;
-    font-style: italic
+    font-style: italic;
 }
 
 .Warning {
     font-size: x-large;
-    color: red
+    color: red;
 }
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .5em 1em;
+        display: block;
+    }
