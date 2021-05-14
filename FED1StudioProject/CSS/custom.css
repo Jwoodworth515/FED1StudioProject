@@ -1,0 +1,66 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Trade+Winds&display=swap');
+
+/*
+    Trade+Winds
+    font-family:Trade+Winds, 'Times New Roman', Times, serif;
+    Bangers
+    font-family:Bangers, 'Times New Roman', Times, serif;
+*/
+
+body {
+    background-color:lightslategray;
+}
+
+header {
+    background-color:gray;
+}
+
+main {
+    background-color: RGBA(150, 150, 150, .8)
+}
+
+h1 {
+    color: white;
+}
+
+p   {
+    font-style:italic;
+}
+
+footer  {
+    font-weight:bold;
+}
+
+#ErrorList  {
+    font-weight:bold;
+    color:red;
+    font-style:italic;
+}
+
+.Warning    {
+    font-size:x-large;
+    color:red;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        padding: .5em 1em;
+        display: block;
+    }
+
+#font1 {
+    font-family: Trade Winds, 'Times New Roman', Times, serif;
+}
+
+#font2 {
+    font-family: Bangers, 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: url('../Images/Dart Board Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
