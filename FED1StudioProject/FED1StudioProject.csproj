@@ -67,13 +67,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Classes.html" />
-    <Content Include="CSS\Classes.css" />
-    <Content Include="CSS\Contact.css" />
+    <Content Include="classes.html" />
+    <Content Include="CSS\classes.css" />
+    <Content Include="CSS\contact.css" />
     <Content Include="CSS\index.css" />
-    <Content Include="CSS\Team.css" />
-    <Content Include="Team.html" />
-    <Content Include="Contact.html" />
+    <Content Include="CSS\team.css" />
+    <Content Include="team.html" />
+    <Content Include="contact.html" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
