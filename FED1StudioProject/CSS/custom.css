@@ -1,54 +1,27 @@
-﻿@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Trade+Winds&display=swap');
-
-/*
-    Trade+Winds
-    font-family:Trade+Winds, 'Times New Roman', Times, serif;
-    Bangers
-    font-family:Bangers, 'Times New Roman', Times, serif;
+﻿/*
+Color Scheme Dark
+#731F2E
+#1B1A26
+#1C2026
+#255937
+#736A5F
 */
 
-body {
-    background-color:lightslategray;
-}
-
 header {
-    background-color:gray;
-}
-
-main {
-    background-color: RGBA(150, 150, 150, .8)
-}
-
-h1 {
-    color: white;
-}
-
-p   {
-    font-style:italic;
-}
-
-footer  {
-    font-weight:bold;
-}
-
-#ErrorList  {
-    font-weight:bold;
-    color:red;
-    font-style:italic;
-}
-
-.Warning    {
-    font-size:x-large;
-    color:red;
+    background-color: black;
 }
 
 nav ul li {
     display: inline-block;
 }
 
-    nav ul li a {
-        padding: .5em 1em;
-        display: block;
+nav ul li a {
+    padding: .5em;
+    display: block;
+    border: solid;
+    border-color: black;
+    margin-bottom: 10px;
+    color: black;
     }
 
 #font1 {
@@ -60,7 +33,40 @@ nav ul li {
 }
 
 body {
+    background-color: black;
     background-image: url('../Images/Dart Board Background.jpg');
     background-size: cover;
     background-attachment: fixed;
+}
+
+main {
+    background-color: black;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    font-style: italic;
+}
+
+footer {
+
+}
+
+#ErrorList {
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+
+.Warning {
+    font-size: x-large;
+    color: red;
+}
+
+a:link {
+    color: black;
+    font-size: 40px;
 }
