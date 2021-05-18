@@ -1,1 +1,37 @@
 ﻿
+body {
+    background-image: url('../Images/artur-matosyan-eryEFcspx9k-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    background-color: RGBA(150, 150, 150, .6);
+    padding: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+footer {
+    font-style: italic;
+    background-color: RGBA(150, 150, 150, .5);
+    padding-bottom: .5em;
+    margin-top: .5em;
+}
+
+h1 {
+    color: white;
+    font: bold;
+    font-family: 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: .5em 1em;
+    display: block;
+    color: white;
+}
+
