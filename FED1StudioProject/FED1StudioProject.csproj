@@ -69,10 +69,7 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="CSS\custom.css" />
-    <Content Include="favicon.ico" />
-    <Content Include="Images\a4522c54813f41338f8cc501f8e0c4f7 %281%29.png" />
     <Content Include="Images\Dart Board Background.jpg" />
-    <Content Include="Images\transportation-dart-pin-on-dart-board-vehicle-vehicle-image.jpg" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
