@@ -69,7 +69,9 @@
   <ItemGroup>
     <Content Include="classes.html" />
     <Content Include="CSS\custom.css" />
+    <Content Include="Images\a4522c54813f41338f8cc501f8e0c4f7 %282%29.png" />
     <Content Include="Images\artur-matosyan-eryEFcspx9k-unsplash.jpg" />
+    <Content Include="Images\little-trophy %281%29.jpg" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
