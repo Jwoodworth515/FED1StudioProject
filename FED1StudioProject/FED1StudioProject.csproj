@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CSS\newcustom.css" />
+    <Content Include="favicon.ico" />
     <Content Include="classes.html" />
-    <Content Include="CSS\custom.css" />
+    <Content Include="Images\GTA1 Logo.png" />
+    <Content Include="Images\markus-spiske-4PG6wLlVag4-unsplash %281%29.jpg" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
@@ -87,7 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Images\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <PropertyGroup>

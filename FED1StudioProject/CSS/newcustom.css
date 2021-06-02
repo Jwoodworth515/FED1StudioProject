@@ -1,0 +1,69 @@
+﻿/*
+    Color Theme From Logo Colors
+    #42321C (brown)
+    #617D40 (Background Header)
+    #85AB57 (Logo Text color)
+    #749C43
+    #2B4D02
+*/
+
+/** {
+    border: 1px solid red;
+}*/
+
+body {
+    background-image: url('../Images/markus-spiske-4PG6wLlVag4-unsplash (1).jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+header {
+    background-color: #617D40;
+    padding: .1em;
+    color: #85AB57;
+    font-family: 'Rock Salt', cursive;
+}
+
+header p {
+    color: #42321C;
+    font-family: 'Rock Salt', cursive;
+}
+
+header img {
+    float: left;
+    resize: vertical ;
+}
+
+nav {
+    clear: both;
+
+    }
+nav ul li {
+    display: inline-block;
+    background-color: #617D40;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding: 1em;
+}
+
+nav ul li a {
+    color: #85AB57;
+    border: solid;
+    border-color: rgb(207, 201, 192);
+    padding: .3em;
+}
+
+main {
+    color: #cae2b1;
+    background-color: rgba(97, 125, 64, .9)
+}
+
+footer {
+    color: #cae2b1;
+    background-color: #617D40;
+}
+
+    footer p a {
+        color: #42321C;
+        font-weight: bold;
+       
+    }
