@@ -7,36 +7,79 @@
     #2B4D02
 */
 
-/** {
-    border: 1px solid red;
-}*/
+/** {border: 2px solid #42321C;}*/
 
 body {
     background-image: url('../Images/markus-spiske-4PG6wLlVag4-unsplash (1).jpg');
     background-size: cover;
     background-attachment: fixed;
+    position: absolute;
+    top: 2%;
+    bottom: 2%;
+    left: 2%;
+    right: 2%;
 }
 header {
     background-color: #617D40;
     padding: .1em;
     color: #85AB57;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
+}
+
+#headerShadow {
+    text-shadow: 2px 3px 1px #333;
 }
 
 header p {
     color: #42321C;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Rock Salt';
+    font-size: large;
+    clear: right;
+    text-shadow: 1px 1px 1px #333;
 }
 
 header img {
     float: left;
-    resize: vertical ;
+    resize: vertical;
+    padding-top: 1.2em;
 }
+
+.aboutOffset {
+    float: left;
+    margin-left: 3em;
+    margin-top: 3em;
+    margin-right: 3em;
+}
+
+.aboutHeader {
+    font-family: 'Rock Salt';
+    padding-top: 2em;
+    text-shadow: 2px 3px 1px #333;
+}
+
+.aboutText {
+    text-align: left;
+    margin-right: 30px;
+    margin-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'RocknRoll One';
+}
+
+.chooseUs {
+    font-family: 'Rock Salt';
+    color: #85AB57;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    clear: both;
+    text-shadow: 2px 3px 1px #333;
+}
+
 
 nav {
     clear: both;
+}
 
-    }
 nav ul li {
     display: inline-block;
     background-color: #617D40;
@@ -50,6 +93,8 @@ nav ul li a {
     border: solid;
     border-color: rgb(207, 201, 192);
     padding: .3em;
+    text-shadow: 1px 1px 1px #333;
+
 }
 
 main {
@@ -57,13 +102,61 @@ main {
     background-color: rgba(97, 125, 64, .9)
 }
 
+article p {
+    margin: 0px;
+    text-align: left;
+}
+
+.waterBucket {
+    float: left;
+}
+
+.nurture {
+    font-family: 'RocknRoll One';
+    padding-top: 6em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.nurtureText {
+    text-align: left;
+    font-family: 'RocknRoll One';
+    height: 405px;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.handOfDirt {
+    float: right;
+}
+
+.grow {
+    font-family: 'RocknRoll One';
+    padding-top: 6em;
+    padding-bottom: 1em;
+    text-align: center;
+    clear: left;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.growText {
+    text-align: left;
+    font-family: 'RocknRoll One';
+    height: 357px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px #333;
+}
+
 footer {
     color: #cae2b1;
     background-color: #617D40;
+    clear: both;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1em;
+    text-shadow: 1px 1px 1px #333;
 }
 
-    footer p a {
-        color: #42321C;
-        font-weight: bold;
-       
-    }
+footer p a {
+color: #42321C;
+font-weight: bold;
+}

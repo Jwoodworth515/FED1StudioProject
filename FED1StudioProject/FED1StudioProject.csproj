@@ -70,11 +70,14 @@
     <Content Include="about.txt" />
     <Content Include="android-chrome-192x192.png" />
     <Content Include="android-chrome-512x512.png" />
-    <Content Include="apple-touch-icon.png" />
     <Content Include="CSS\newcustom.css" />
     <Content Include="classes.html" />
+    <Content Include="Images\gabriel-jimenez-jin4W1HqgL4-unsplash %281%29.jpg" />
     <Content Include="Images\GTA1 Logo.png" />
     <Content Include="Images\markus-spiske-4PG6wLlVag4-unsplash %281%29.jpg" />
+    <Content Include="Images\markus-spiske-sFydXGrt5OA-unsplash %282%29.jpg" />
+    <Content Include="Images\photo-1508094427028-b1e27931dddb %282%29.jpg" />
+    <Content Include="Images\vince-lee-gwT4rs_xlUA-unsplash.jpg" />
     <Content Include="team.html" />
     <Content Include="contact.html" />
     <Content Include="index.html" />
