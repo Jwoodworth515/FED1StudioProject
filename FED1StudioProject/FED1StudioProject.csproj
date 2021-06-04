@@ -67,8 +67,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.txt" />
+    <Content Include="android-chrome-192x192.png" />
+    <Content Include="android-chrome-512x512.png" />
+    <Content Include="apple-touch-icon.png" />
     <Content Include="CSS\newcustom.css" />
-    <Content Include="favicon.ico" />
     <Content Include="classes.html" />
     <Content Include="Images\GTA1 Logo.png" />
     <Content Include="Images\markus-spiske-4PG6wLlVag4-unsplash %281%29.jpg" />
@@ -82,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="site.webmanifest" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
