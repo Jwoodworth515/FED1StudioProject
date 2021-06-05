@@ -7,7 +7,7 @@
     #2B4D02
 */
 
-/** {border: 2px solid #42321C;}*/
+/** {border: 2px solid #42321c;}*/
 
 body {
     background-image: url('../Images/markus-spiske-4PG6wLlVag4-unsplash (1).jpg');
@@ -63,6 +63,7 @@ header img {
     margin-top: 1em;
     padding-bottom: 1em;
     font-family: 'RocknRoll One';
+    text-shadow: 1px 1px 1px #333;
 }
 
 .chooseUs {
@@ -74,7 +75,6 @@ header img {
     clear: both;
     text-shadow: 2px 3px 1px #333;
 }
-
 
 nav {
     clear: both;
@@ -91,7 +91,7 @@ nav ul li {
 nav ul li a {
     color: #85AB57;
     border: solid;
-    border-color: rgb(207, 201, 192);
+    border-color: #CFC9C0;
     padding: .3em;
     text-shadow: 1px 1px 1px #333;
 
@@ -160,4 +160,19 @@ footer p a {
 color: #42321C;
 font-weight: bold;
 font-family: 'Rock Salt';
+}
+
+/***************Contact Menu*****************/
+
+section p {
+    color: #85AB57;
+    font-family: 'RocknRoll One';
+    margin-left: 10em;
+    padding: 1px;
+    color: #CFC9C0;
+}
+
+#marginControl {
+    margin-bottom: .5em;
+    padding-bottom: 5em;
 }
