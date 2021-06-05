@@ -24,6 +24,7 @@ header {
     padding: .1em;
     color: #85AB57;
     font-family: 'Rock Salt';
+    box-shadow: #749C43 1px 1px 2px 2px;
 }
 
 #headerShadow {
@@ -44,11 +45,16 @@ header img {
     padding-top: 1.2em;
 }
 
+main {
+    box-shadow: #749C43 1px 1px 2px 2px;
+}
+
 .aboutOffset {
     float: left;
     margin-left: 3em;
     margin-top: 3em;
     margin-right: 3em;
+    border: double 5px #42321C;
 }
 
 .aboutHeader {
@@ -94,7 +100,11 @@ nav ul li a {
     border-color: #CFC9C0;
     padding: .3em;
     text-shadow: 1px 1px 1px #333;
+    transition: background-color .6s;
+}
 
+nav ul li a:hover {
+  background-color: #2B4D02;
 }
 
 main {
@@ -109,6 +119,8 @@ article p {
 
 .waterBucket {
     float: left;
+    padding-left: 5px;
+    padding-right: 20px;
 }
 
 .nurture {
@@ -127,6 +139,8 @@ article p {
 
 .handOfDirt {
     float: right;
+    padding-right: 5px;
+    padding-left: 20px;
 }
 
 .grow {
@@ -141,7 +155,7 @@ article p {
 .growText {
     text-align: left;
     font-family: 'RocknRoll One';
-    height: 357px;
+    height: 361px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 2px #333;
 }
@@ -154,6 +168,7 @@ footer {
     padding-top: 1px;
     padding-bottom: 1em;
     text-shadow: 1px 1px 1px #333;
+    box-shadow: #749C43 1px 1px 2px 2px;
 }
 
 footer p a {
@@ -165,14 +180,82 @@ font-family: 'Rock Salt';
 /***************Contact Menu*****************/
 
 section p {
-    color: #85AB57;
     font-family: 'RocknRoll One';
-    margin-left: 10em;
+    margin-left: 7em;
+    margin-right: 7em;
     padding: 1px;
-    color: #CFC9C0;
+    text-shadow: 1px 1px 1px #333;
+    border-color: #CFC9C0;
+    border-top: solid #42321C;
+    border-bottom: solid #42321C;
 }
 
 #marginControl {
     margin-bottom: .5em;
     padding-bottom: 5em;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
+
+/**************Team Menu****************/
+
+#rightColumn {
+    width: 28%;
+    float: right;
+
+}
+
+#leftColumn {
+    width: 65%;
+    border-right: 3px solid #42321C;
+    margin-left: 5em;
+}
+
+.departmentTitle {
+    font-family: 'Rock Salt';
+    padding-top: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px #333;
+}
+
+.departmentItems {
+    font-family: 'RocknRoll One';
+    text-shadow: 1px 1px 1px #333;
+}
+
+.spaced {
+    padding: 5px;
+}
+
+.departmentListing {
+    font-family: 'Rock Salt';
+    color: #CFC9C0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    text-shadow: 2px 3px 1px #333;
+}
+
+.employeePhoto {
+    float: left;
+    padding: 20px;
+}
+
+.employeeTitle {
+    font-family: 'Rock Salt';
+    padding-top: 15px;
+    text-align: left;
+    text-shadow: 2px 2px 2px #333;
+    font-size: medium;
+}
+
+.employeeText {
+    text-align: left;
+    font-family: 'RocknRoll One';
+    text-shadow: 2px 2px 2px #333;
+    font-size: smaller;
+    color: #CFC9C0;
+}
+
+

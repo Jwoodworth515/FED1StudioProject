@@ -72,6 +72,9 @@
     <Content Include="android-chrome-512x512.png" />
     <Content Include="CSS\newcustom.css" />
     <Content Include="classes.html" />
+    <Content Include="favicon.ico" />
+    <Content Include="Images\dollar-gill--8c7o7Rt_tE-unsplash %283%29.jpg" />
+    <Content Include="Images\favicon.ico" />
     <Content Include="Images\gabriel-jimenez-jin4W1HqgL4-unsplash %281%29.jpg" />
     <Content Include="Images\GTA1 Logo.png" />
     <Content Include="Images\markus-spiske-4PG6wLlVag4-unsplash %281%29.jpg" />
