@@ -7,34 +7,32 @@
     #2B4D02
 */
 
-/** {border: 2px solid #42321c;}*/
+ /**{border: 2px solid #42321c;}*/
 
 body {
     background-image: url('../Images/markus-spiske-4PG6wLlVag4-unsplash (1).jpg');
     background-size: cover;
     background-attachment: fixed;
-    position: absolute;
-    top: 2%;
-    bottom: 2%;
-    left: 2%;
-    right: 2%;
+    margin: 10px 150px 20px 150px;
 }
 header {
     background-color: #617D40;
-    padding: .1em;
+    padding: 1px;
     color: #85AB57;
-    font-family: 'Rock Salt';
-    box-shadow: #749C43 1px 1px 2px 2px;
+    font-family: 'Rock Salt', sans-serif;
+    box-shadow: #749C43 3px 3px;
 }
 
 #headerShadow {
     text-shadow: 2px 3px 1px #333;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
 }
 
-header p {
+header div {
     color: #42321C;
-    font-family: 'Rock Salt';
-    font-size: large;
+    font-family: 'Rock Salt', sans-serif;
+    font-size: medium;
     clear: right;
     text-shadow: 1px 1px 1px #333;
 }
@@ -45,41 +43,18 @@ header img {
     padding-top: 1.2em;
 }
 
-main {
-    box-shadow: #749C43 1px 1px 2px 2px;
+.socialBar {
+    display: block;
+    text-align: right;
+    float: right;
 }
 
-.aboutOffset {
-    float: left;
-    margin-left: 3em;
-    margin-top: 3em;
-    margin-right: 3em;
-    border: double 5px #42321C;
-}
-
-.aboutHeader {
-    font-family: 'Rock Salt';
-    padding-top: 2em;
-    text-shadow: 2px 3px 1px #333;
-}
-
-.aboutText {
-    text-align: left;
-    margin-right: 30px;
-    margin-top: 1em;
-    padding-bottom: 1em;
-    font-family: 'RocknRoll One';
-    text-shadow: 1px 1px 1px #333;
-}
-
-.chooseUs {
-    font-family: 'Rock Salt';
-    color: #85AB57;
-    padding-top: 1em;
-    padding-bottom: 1em;
+.socialBar a {
     text-align: center;
-    clear: both;
-    text-shadow: 2px 3px 1px #333;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: #2B4D02;
+    font-size: 30px;
 }
 
 nav {
@@ -92,6 +67,7 @@ nav ul li {
     padding-left: 1em;
     padding-right: 1em;
     padding: 1em;
+    box-shadow: #42321C 1px 1px 1px 1px;
 }
 
 nav ul li a {
@@ -103,8 +79,47 @@ nav ul li a {
     transition: background-color .6s;
 }
 
-nav ul li a:hover {
-  background-color: #2B4D02;
+nav ul li a:hover, .selected {
+  background-color:#2B4D02;
+}
+
+main {
+    box-shadow: #749C43 1px 1px 2px 2px;
+}
+
+.aboutOffset {
+    float: left;
+    margin: 3em 3em 0 3em;
+    border: double 5px #42321C;
+}
+
+.aboutHeader {
+    font-family: 'Rock Salt', sans-serif;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align: left;
+    text-shadow: 2px 3px 1px #333;
+    color: #749C43;
+}
+
+.aboutText {
+    text-align: left;
+    margin: 1em 30px 0 0;
+    padding-bottom: 1em;
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 1px 1px 1px #133;
+    font-size: medium;
+    color: #42321C;
+}
+
+.chooseUs {
+    font-family: 'Rock Salt', sans-serif;
+    padding: 1em 0 0 0;
+    text-align: center;
+    clear: both;
+    text-shadow: 2px 3px 1px #333;
+    font-size: 30px;
+    color: #CFC9C0;
 }
 
 main {
@@ -112,75 +127,71 @@ main {
     background-color: rgba(97, 125, 64, .9)
 }
 
-article p {
-    margin: 0px;
-    text-align: left;
-}
-
 .waterBucket {
     float: left;
-    padding-left: 5px;
-    padding-right: 20px;
+    padding-left: 9px;
+    padding-right: 19px;
 }
 
 .nurture {
-    font-family: 'RocknRoll One';
-    padding-top: 6em;
+    font-family: 'Rock Salt', sans-serif;
+    padding-top: 2em;
     text-align: center;
     text-shadow: 2px 2px 2px #333;
+    color: #85AB57;
 }
 
 .nurtureText {
     text-align: left;
-    font-family: 'RocknRoll One';
-    height: 405px;
-    text-shadow: 2px 2px 2px #333;
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 1px 1px 1px #133;
+    color: #42321C;
+    padding: 0 2em 0 2em;
 }
 
 .handOfDirt {
     float: right;
-    padding-right: 5px;
-    padding-left: 20px;
+    padding-right: 9px;
+    padding-left: 19px;
 }
 
 .grow {
-    font-family: 'RocknRoll One';
-    padding-top: 6em;
-    padding-bottom: 1em;
+    font-family: 'Rock Salt', sans-serif;
+    padding-top: 2em;
     text-align: center;
     clear: left;
     text-shadow: 2px 2px 2px #333;
+    color: #85AB57;
 }
 
 .growText {
     text-align: left;
-    font-family: 'RocknRoll One';
-    height: 361px;
-    margin-bottom: 10px;
-    text-shadow: 2px 2px 2px #333;
+    font-family: 'RocknRoll One', sans-serif;
+    height: 285px;
+    text-shadow: 1px 1px 1px #133;
+    padding: 0 2em 0 2em;
+    color: #42321C;
 }
 
 footer {
     color: #cae2b1;
     background-color: #617D40;
     clear: both;
-    padding-left: 20px;
-    padding-top: 1px;
-    padding-bottom: 1em;
     text-shadow: 1px 1px 1px #333;
     box-shadow: #749C43 1px 1px 2px 2px;
+    padding: 1px 0 1em 20px;
 }
 
 footer p a {
 color: #42321C;
 font-weight: bold;
-font-family: 'Rock Salt';
+font-family: 'Rock Salt', sans-serif;
 }
 
 /***************Contact Menu*****************/
 
 section p {
-    font-family: 'RocknRoll One';
+    font-family: 'RocknRoll One', sans-serif;
     margin-left: 7em;
     margin-right: 7em;
     padding: 1px;
@@ -214,14 +225,14 @@ section p {
 }
 
 .departmentTitle {
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt', sans-serif;
     padding-top: 2em;
     text-align: center;
     text-shadow: 2px 2px 2px #333;
 }
 
 .departmentItems {
-    font-family: 'RocknRoll One';
+    font-family: 'RocknRoll One', sans-serif;
     text-shadow: 1px 1px 1px #333;
 }
 
@@ -230,7 +241,7 @@ section p {
 }
 
 .departmentListing {
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt', sans-serif;
     color: #CFC9C0;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -244,7 +255,7 @@ section p {
 }
 
 .employeeTitle {
-    font-family: 'Rock Salt';
+    font-family: 'Rock Salt', sans-serif;
     padding-top: 15px;
     text-align: left;
     text-shadow: 2px 2px 2px #333;
@@ -253,7 +264,7 @@ section p {
 
 .employeeText {
     text-align: left;
-    font-family: 'RocknRoll One';
+    font-family: 'RocknRoll One', sans-serif;
     text-shadow: 2px 2px 2px #333;
     font-size: smaller;
     color: #CFC9C0;
@@ -275,6 +286,7 @@ section p {
      content: "";
      display: table;
      clear: both;
+     margin-bottom: 20px;
 }
 
 .card {
@@ -286,8 +298,8 @@ section p {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     background-color: #85AB57;
-    font-family: 'Rock Salt';
-    font-size: small;
+    font-family: 'Rock Salt', sans-serif;
+    font-size: 15px;
     text-shadow: 1px 1px 1px #333;
 }
 
@@ -296,6 +308,37 @@ section p {
 }
 
 .classLevel {
-    font-family: 'RocknRoll One';
+    font-family: 'RocknRoll One', sans-serif;
+    text-align: left;
+    padding: 0 20px 0 20px;
+    text-shadow: 2px 2px 2px #333;
+    color: #FFFFFF;
+    font-size: small;
 }
 
+table {
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+table, tr, td, th {
+    border: 2px solid #42321C;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 2em 4em 2em 4em;
+    text-align: center;
+}
+
+thead, tfoot {
+    background-color: #85AB57;
+}
+
+tbody {
+    background-color: #617D40;
+}
+
+    tbody tr:nth-child(even) {
+        background-color: #85AB57
+    }
