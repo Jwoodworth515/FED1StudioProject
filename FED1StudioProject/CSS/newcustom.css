@@ -7,7 +7,7 @@
     #2B4D02
 */
 
- /**{border: 2px red #42321c;}*/
+ /**{border: 2px solid #42321c;}*/
 
 body {
     background-image: url('../Images/markus-spiske-4PG6wLlVag4-unsplash (1).jpg');
@@ -90,7 +90,7 @@ main {
 .aboutOffset {
     float: left;
     margin: 3em 3em 0 3em;
-    border: double 5px #42321C;
+    /*border: double 5px #42321C;*/
 }
 
 .aboutHeader {
@@ -178,7 +178,6 @@ main {
 footer {
     color: #cae2b1;
     background-color: #617D40;
-    clear: both;
     text-shadow: 1px 1px 1px #333;
     box-shadow: #749C43 1px 1px 2px 2px;
     padding: 1px 0 1em 20px;
@@ -204,11 +203,9 @@ section p {
 }
 
 #marginControl {
-    margin-bottom: .5em;
-    padding-bottom: 5em;
+    padding-bottom: 10em;
     width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 2em 25% 10em 25%;
 }
 
 /**************Team Menu****************/
@@ -249,17 +246,49 @@ section p {
     text-shadow: 2px 3px 1px #333;
 }
 
+.bioSize {
+    padding: 1em 0 1em 0;
+}
+
 .employeePhoto {
     float: left;
     padding: 20px;
+    left:auto;
 }
 
-.employeeTitle {
+.employeeTitleTop {
     font-family: 'Rock Salt', sans-serif;
     padding-top: 15px;
     text-align: left;
     text-shadow: 2px 2px 2px #333;
     font-size: medium;
+    margin-bottom: -1.5em;
+}
+
+.employeeNameTop {
+    text-align: left;
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 1px 1px 1px #133;
+    font-size: medium;
+    color: #42321C;
+    margin-bottom: .1em;
+}
+
+.employeeTitle {
+    font-family: 'Rock Salt', sans-serif;
+    text-align: left;
+    text-shadow: 2px 2px 2px #333;
+    font-size: medium;
+    margin-top: 1em;
+}
+
+.employeeName {
+    text-align: left;
+    margin: -1em 30px 0 0;
+    font-family: 'RocknRoll One', sans-serif;
+    text-shadow: 1px 1px 1px #133;
+    font-size: medium;
+    color: #42321C;
 }
 
 .employeeText {
@@ -269,6 +298,7 @@ section p {
     font-size: smaller;
     color: #CFC9C0;
 }
+
 
 /**************Classes Menu****************/
 
@@ -303,6 +333,10 @@ section p {
     text-shadow: 1px 1px 1px #333;
 }
 
+.card h4 {
+    color: #CFC9C0;
+}
+
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
 }
@@ -329,10 +363,14 @@ table, tr, td, th {
 th, td {
     padding: 2em 4em 2em 4em;
     text-align: center;
+    text-shadow: 1px 1px 1px #133;
 }
 
 thead, tfoot {
     background-color: #85AB57;
+    font-family: 'RocknRoll One', sans-serif;
+    color: #42321C;
+    text-shadow: 1px 1px 1px #133;
 }
 
 tbody {
@@ -340,9 +378,20 @@ tbody {
 }
 
 tbody tr:nth-child(even) {
-    background-color: #85AB57
+    background-color: #85AB57;
+    color: #42321C;
+    text-shadow: 1px 1px 1px #133;
 }
 
 spacer {
     padding-bottom: 10px;
 }
+
+/*
+    Color Theme From Logo Colors
+    #42321C (brown)
+    #617D40 (Background Header)
+    #85AB57 (Logo Text color)
+    #749C43
+    #2B4D02
+*/
